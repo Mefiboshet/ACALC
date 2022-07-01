@@ -93,7 +93,7 @@ class Ui_Form(object):
         QtCore.QMetaObject.connectSlotsByName(Form)
 
         self.pushButton.clicked.connect(self.show_line)
-        self.pushButton_2.clicked.connect(lambda: webbrowser.open('https://github.com/Fajowskowy'))
+        self.pushButton_2.clicked.connect(lambda: webbrowser.open('https://github.com/Fajowskowy/ACALC'))
 
     def show_line(self):
         try:
